@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageView android:id="@+id/splashscreen" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/icon"
+        android:background="@android:color/holo_blue_light"
+        android:layout_gravity="center"
+        android:cropToPadding="true"
+        android:adjustViewBounds="true"
+        tools:elevation="@android:dimen/app_icon_size"
+        tools:targetApi="ice_cream_sandwich"
+        android:contentDescription=""
+        tools:ignore="ContentDescription" />
+
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:layout_gravity="bottom">
+        <ImageView android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:id="@+id/eyes" android:layout_width="fill_parent" android:layout_height="wrap_content"
+            tools:ignore="ContentDescription" />
+        <Button android:id="@+id/login_btn"
+            android:layout_marginBottom="20dp"
+            android:layout_width="147dp"
+            android:layout_height="32dp"
+            android:layout_marginLeft="30dp"
+            android:text="LOGIN"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/my_btn"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText,RtlHardcoded" />
+
+        <Button android:id="@+id/signup_btn"
+            android:layout_marginBottom="20dp"
+            android:layout_height="32dp"
+            android:layout_width="147dp"
+            android:layout_marginRight="30dp"
+            android:text="SIGNUP"
+            android:layout_gravity="right"
+            android:background="@drawable/signup_btn"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"
+            tools:ignore="HardcodedText,RtlHardcoded"/>
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

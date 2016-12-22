@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:ignore="NewApi"
+    >
+
+   <!-- <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="welcime 2nd screen"/>-->
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="60dip"
+        android:textSize="17dp"
+        android:padding="10px"
+        android:id="@+id/back"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="SIGNUP TO ACCOUNT"
+        tools:targetApi="ice_cream_sandwich">
+    </TextView>
+
+
+    <TableRow
+        android:id="@+id/tableRow6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button android:id="@+id/facebook_btn"
+            android:layout_height="50dp"
+            android:layout_width="370dp"
+            android:text="Login with Facebook"
+            android:background="@drawable/facebook_signin_btn"
+            ></Button>
+    </TableRow>
+
+
+
+    <TableRow
+        android:id="@+id/tableRow7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button android:id="@+id/gmail_btn"
+            android:layout_height="50dp"
+            android:layout_width="370dp"
+            android:text="Login with Gmail"
+            android:background="@drawable/gmail_btn">
+        </Button>
+    </TableRow>
+
+    <TextView
+        android:text="OR"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20px"
+        android:layout_width="match_parent"
+        android:textSize="40px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:id="@+id/textView2" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"    >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="90px"
+            android:background="@drawable/input"
+            android:layout_marginTop="20dp"
+            android:width="90in"
+            android:textColorHint="#bebbbb"
+            android:gravity="left"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"
+            android:inputType="text"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:textSize="13dp"
+            android:padding="25px"
+            android:hint="Name"
+            android:id="@+id/editText7" />
+    </TableRow>
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="90px"
+            android:background="@drawable/input"
+            android:textColorHint="#bebbbb"
+            android:inputType="number"
+            android:fontFamily="sans-serif"
+            android:textSize="13dp"
+            android:width="90in"
+            android:padding="25px"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="Number"
+            android:id="@+id/editText8" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="90px"
+        android:background="@drawable/input"
+        android:textColorHint="#bebbbb"
+        android:inputType="textEmailAddress"
+        android:fontFamily="sans-serif"
+        android:textSize="13dp"
+        android:width="90in"
+        android:padding="25px"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:hint="Email"
+        android:id="@+id/editText9" />
+</TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="90px"
+            android:background="@drawable/input"
+            android:textColorHint="#bebbbb"
+            android:inputType="numberPassword"
+            android:fontFamily="sans-serif"
+            android:textSize="13dp"
+            android:width="90in"
+            android:padding="25px"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:ems="10"
+            android:hint="Password"
+            android:id="@+id/editText10" />
+    </TableRow>
+
+    <!--<TextView
+        android:text="Forget Password?"
+        android:layout_marginTop="10dp"
+        android:textSize="13dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />-->
+
+    <CheckBox
+        android:text="I agree with Terms and Condition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10px"
+        android:layout_gravity="center"
+        android:id="@+id/checkBox" />-->
+
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <Button android:id="@+id/submit_login_btn"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="37dp"
+            android:layout_width="340dp"
+            android:text="LOGIN"
+            android:layout_gravity="right"
+            android:background="@drawable/signup_btn"
+            android:textColor="@android:color/white"
+            android:layout_alignParentRight="true"></Button>
+    </TableRow>
+
+</LinearLayout>
